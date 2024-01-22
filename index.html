@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card{
+            justify-content: center;
+            width: 600px;
+            height: auto;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 12px;
+            box-shadow: 5px 5px 10px gray;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .card-img{
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            /* margin-left: 35%; */
+            padding: 7px 0px 0px 7px;
+        background:  linear-gradient(60deg,  #8a3ab9, #e95950,#bc2a8d ,#fccc63 ,#fbad50) ;
+        }
+
+            .card-img img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;   
+            border: 7px solid white;  
+            } 
+        h1{
+            text-align: center;
+        }
+        .social{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .social img{
+            height: 40px;
+            width: 40px;
+        }
+        .skills{
+            /* padding:10px; */
+            justify-content: center;
+            margin: 20px;
+            margin-left: 23% ;
+        }
+        .skills button{
+            padding: 10px;
+            background-color: transparent;
+            border-radius: 15px;
+        }
+        .follow{
+            /* justify-content: center; */
+            margin: 0px 0px 0px 18% ;
+        }
+        .follow button{
+            padding: 5px 30px 5px 30px;
+            margin-left: 10px;
+            /* background: linear-gradient(60deg,  #8a3ab9, #e95950,#bc2a8d ,#fccc63 ,#fbad50); */
+            background-color: greenyellow;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        @media (max-width:600px) {
+            .card {
+                width: 380px;
+                margin-top: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+<div style="display: flex;">
+    <div class="card-img"> <img src="img/IMG-20230222-WA0016.jpg" alt="vishal"></div>
+    <div style="display: block; margin-top: 10px;"> <h1>Vishal Singh</h1>
+        <h4 style="text-align: center; color: rgb(83, 82, 82);">@v._vishalghildiyan</h4></div>
+    </div>
+        <p>Vishal Singh, the co-CEO of Pixel Rise Studios, a web development company, leads a team of developers who oversee the entire software development life cycle of web applications, ensuring they meet quality standards and client requirements. Simultaneously, Vishal is pursuing a BCA degree at Poornima University, where he is gaining a strong foundation in computer programming, specific applications, and business studies. His passion for coding and desire to become a full-stack developer drive him to continuously learn and challenge himself, as evidenced by his multiple certifications in Python, web development, and UI/UX design.</p>
+        <div class="skills">
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JS</button>
+            <button>python</button>
+        </div>
+        <div class="follow">
+            <a href=""><button>follow</button></a>
+            <a href=""><button>contact</button></a>
+        </div>
+        <div class="social">
+            <a href=""> <img src="https://img.icons8.com/fluency/100/instagram-new.png" alt="instagram-new"/></a>
+            <a href=""><img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+            <a href=""> <img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
+            <a href=""><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitterx--v1.png" alt="twitterx--v1"/></a>
+        </div>
+    </div>
+</body>
+</html>
